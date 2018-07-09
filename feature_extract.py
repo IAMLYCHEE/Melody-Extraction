@@ -3,6 +3,7 @@
 import librosa
 import numpy as np
 import peak_break
+from scipy import stats
 
 def freq_feature(audio, sr, freq_min=56, freq_max=1760,
                  win_length=1024, hop_length=128,
@@ -91,4 +92,5 @@ def gen_dataSet(energy, zeros_cros, auto_corr,mean_pks, sample_amount):
     zeros_cros = np.reshape(zeros_cros, (sample_amount, 1))
     auto_corr = np.reshape(auto_corr, (sample_amount, 1))
     dataset = np.concatenate((energy, zeros_cros, auto_corr, mean_pks), axis=1)
+    dataset = stats.zscore(dataset, axis=0)
     return dataset
