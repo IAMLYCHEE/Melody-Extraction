@@ -10,7 +10,7 @@ import pitch_extract
 import utilities
 
 print('Collecting modules Successfully')
-audio_file = user_input.cmd_input()
+audio_file,mode = user_input.cmd_input()
 audio, sr = librosa.load(audio_file, sr = 48000, mono = True)
 s_crop = feature_extract.freq_feature(audio, sr, freq_min=56, freq_max=1760,
                                       win_length=1024, hop_length=128,
@@ -30,5 +30,13 @@ pitch_on_array, pitch_off_array = pitch_on_off.gen_pitch_on_off(dataset=dataset,
 notes = pitch_extract.pitch_extract(pks_locs,pitch_on_array,pitch_off_array,
                                     suppress_alpha=2.5,n_fft=8192,sr=48000,freq_min=55,
                                     outlier = 8.5, detect_osc = 45.0, jump = 8.0)
-utilities.genStereo(notes,audio_file,hop_length=128,sr = 48000,crossfade=25,
-                    silencefade=15)
+
+if(mode == 'wav2wav'):
+    utilities.genStereo(notes,audio_file,hop_length=128,sr = 48000,crossfade=25,
+                        silencefade=15)
+elif (mode == 'wav2midi'):
+    utilities.genMidi(notes,audio_file,initial_tempo=80,program=42)
+else:
+    utilities.genStereo(notes,audio_file,hop_length=128,sr = 48000,crossfade=25,
+                        silencefade=15)
+    utilities.genMidi(notes, audio_file, initial_tempo=80, program=42)

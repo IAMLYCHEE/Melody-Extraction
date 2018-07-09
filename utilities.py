@@ -3,6 +3,8 @@
 import numpy as np
 from pydub import AudioSegment
 from pydub.generators import Sine
+import pretty_midi as pmidi
+
 
 def pks2freq(pks_locs,freq_min=55,sr=48000,n_fft=8192):
     return freq_min + sr/n_fft * pks_locs
@@ -62,3 +64,19 @@ def genStereo(notes,audio_file,hop_length=128,sr=48000,crossfade = 25,silencefad
     filename = './wav2wavmix/' + audio_file[6:-4] + '_mix_conti_v4.wav'
     stereo_sound.export(filename, format="wav", bitrate="48k")
     print('stereo sound file generated!')
+
+
+def genMidi(notes,audio_file,initial_tempo = 80,program = 42):
+    pm = pmidi.PrettyMIDI(initial_tempo=initial_tempo)
+    # print(pm.instruments)
+    inst = pmidi.Instrument(program=program, is_drum=False)
+    pm.instruments.append(inst)
+    # print(pm.instruments)
+    velocity = 95
+    for i in range(len(notes)):
+        note = notes[i]
+        pitch = np.int8(np.round(note[2]))
+        start_time = note[0] * 128 / 48000
+        end_time = note[1] * 128 / 48000
+        inst.notes.append(pmidi.Note(velocity, pitch, start_time, end_time))
+    pm.write('./wav2midi/'+ audio_file[6:-4] + '.mid')

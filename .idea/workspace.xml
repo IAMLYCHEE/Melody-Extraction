@@ -10,18 +10,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DockManager">
-    <window id="2">
+    <window id="3">
       <content type="file-editors">
         <state>
           <leaf>
-            <file leaf-file-name="wav2wav.py" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/wav2wav.py">
+            <file leaf-file-name="app.py" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/app.py">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="528">
-                    <caret line="24" column="76" lean-forward="true" selection-start-line="24" selection-start-column="76" selection-end-line="24" selection-end-column="76" />
-                    <folding>
-                      <element signature="e#50#72#0" expanded="true" />
-                    </folding>
+                  <state relative-caret-position="323">
+                    <caret line="22" column="58" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="58" />
                   </state>
                 </provider>
               </entry>
@@ -36,7 +33,7 @@
       <file leaf-file-name="feature_extract.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/feature_extract.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
+            <state relative-caret-position="641">
               <caret line="87" selection-start-line="87" selection-end-line="87" />
               <folding>
                 <element signature="e#58#72#0" expanded="true" />
@@ -57,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pitch_extract.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pitch_extract.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pitch_extract.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4226">
-              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+            <state relative-caret-position="319">
+              <caret line="217" selection-start-line="217" selection-end-line="217" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
               </folding>
@@ -69,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="utilities.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="utilities.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/utilities.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="732">
-              <caret line="62" column="62" selection-start-line="62" selection-start-column="62" selection-end-line="62" selection-end-column="62" />
+            <state relative-caret-position="826">
+              <caret line="79" column="40" selection-start-line="79" selection-start-column="40" selection-end-line="79" selection-end-column="40" />
               <folding>
                 <element signature="e#50#68#0" expanded="true" />
               </folding>
@@ -81,16 +78,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file leaf-file-name="user_input.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/user_input.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+            <state relative-caret-position="350">
+              <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -128,14 +120,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/peak_break.py" />
-        <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/pitch_on_off.py" />
         <option value="$PROJECT_DIR$/pitch_extract.py" />
+        <option value="$PROJECT_DIR$/wav2wav_v4.py" />
+        <option value="$PROJECT_DIR$/feature_extract.py" />
+        <option value="$PROJECT_DIR$/wav2wav.py" />
+        <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/user_input.py" />
         <option value="$PROJECT_DIR$/utilities.py" />
-        <option value="$PROJECT_DIR$/wav2wav_v4.py" />
-        <option value="$PROJECT_DIR$/wav2wav.py" />
-        <option value="$PROJECT_DIR$/feature_extract.py" />
       </list>
     </option>
   </component>
@@ -256,32 +248,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wav2wav_v4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1437">
+          <caret line="297" column="31" lean-forward="true" selection-start-line="297" selection-start-column="31" selection-end-line="297" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wav2wav.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="52" lean-forward="true" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
+          <folding>
+            <element signature="e#50#72#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="22" column="58" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pitch_extract.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="217" selection-start-line="217" selection-end-line="217" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user_input.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/peak_break.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1998">
           <caret line="74" column="42" selection-start-line="74" selection-start-column="42" selection-end-line="74" selection-end-column="42" />
           <folding>
             <element signature="e#52#70#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user_input.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utilities.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="732">
-          <caret line="62" column="62" selection-start-line="62" selection-start-column="62" selection-end-line="62" selection-end-column="62" />
-          <folding>
-            <element signature="e#50#68#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -296,29 +312,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wav2wav_v4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1437">
-          <caret line="297" column="31" lean-forward="true" selection-start-line="297" selection-start-column="31" selection-end-line="297" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wav2wav.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" column="76" lean-forward="true" selection-start-line="24" selection-start-column="76" selection-end-line="24" selection-end-column="76" />
-          <folding>
-            <element signature="e#50#72#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/feature_extract.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
+        <state relative-caret-position="641">
           <caret line="87" selection-start-line="87" selection-end-line="87" />
           <folding>
             <element signature="e#58#72#0" expanded="true" />
@@ -326,12 +322,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pitch_extract.py">
+    <entry file="file://$PROJECT_DIR$/utilities.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4226">
-          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        <state relative-caret-position="826">
+          <caret line="79" column="40" selection-start-line="79" selection-start-column="40" selection-end-line="79" selection-end-column="40" />
           <folding>
-            <element signature="e#0#16#0" expanded="true" />
+            <element signature="e#50#68#0" expanded="true" />
           </folding>
         </state>
       </provider>
