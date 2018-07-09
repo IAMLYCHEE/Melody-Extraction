@@ -6,13 +6,19 @@ first drag your .wav file into folder /wav
 
 - for left channel melody float frequency and right channel vocal
 ```bash
->python wav2wav.py infile.wav
+>python app.py infile.wav wav2wav
 ```
 
 - for generate midi file
 ```bash
->python wav2midi.py infile.wav
+>python app.py infile.wav wav2midi
 ```
+
+-by default two modes all executed
+```bash
+>python app.py infile.wav 
+```
+
 
 # Dependencies:
 - Anaconda: Alternative , but recommended
