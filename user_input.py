@@ -11,7 +11,7 @@ def cmd_input():
         if audio_file[-4:] != '.wav':
             print('sorry can only deal with wav file now')
             sys.exit(2)
-        if sys.argv == 3:
+        if len(sys.argv) == 3:
             mode = str(sys.argv[2])
             if mode == 'wav2wav':
                 print('check ./wav2wavmix folder')
@@ -19,7 +19,7 @@ def cmd_input():
                 print('check ./wav2midi folder')
             else:
                 print('default mode, check ./wav2wavmix  and ./wav2midi folder')
-        if sys.argv != 3:
+        else :
             print('default mode, check ./wav2wavmix  and ./wav2midi folder')
             mode = 'all'
 
