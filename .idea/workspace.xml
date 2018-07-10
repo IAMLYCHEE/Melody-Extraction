@@ -13,12 +13,12 @@
     <window id="3">
       <content type="file-editors">
         <state>
-          <leaf>
+          <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
             <file leaf-file-name="app.py" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/app.py">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="323">
-                    <caret line="22" column="58" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="58" />
+                  <state relative-caret-position="209">
+                    <caret line="16" column="70" selection-start-line="16" selection-start-column="70" selection-end-line="16" selection-end-column="70" />
                   </state>
                 </provider>
               </entry>
@@ -33,7 +33,7 @@
       <file leaf-file-name="feature_extract.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/feature_extract.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="641">
+            <state relative-caret-position="1596">
               <caret line="87" selection-start-line="87" selection-end-line="87" />
               <folding>
                 <element signature="e#58#72#0" expanded="true" />
@@ -42,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pitch_on_off.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pitch_on_off.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pitch_on_off.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1372">
-              <caret line="58" column="44" selection-start-line="58" selection-start-column="44" selection-end-line="58" selection-end-column="44" />
+            <state relative-caret-position="19">
+              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
               <folding>
                 <element signature="e#54#72#0" expanded="true" />
               </folding>
@@ -57,11 +57,8 @@
       <file leaf-file-name="pitch_extract.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pitch_extract.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
+            <state relative-caret-position="4085">
               <caret line="217" selection-start-line="217" selection-end-line="217" />
-              <folding>
-                <element signature="e#0#16#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -69,7 +66,7 @@
       <file leaf-file-name="utilities.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utilities.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="586">
+            <state relative-caret-position="1216">
               <caret line="67" selection-start-line="67" selection-end-line="67" />
               <folding>
                 <element signature="e#50#68#0" expanded="true" />
@@ -78,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user_input.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="user_input.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/user_input.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+            <state relative-caret-position="475">
+              <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -90,7 +87,7 @@
       <file leaf-file-name="peak_break.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/peak_break.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1998">
+            <state relative-caret-position="1387">
               <caret line="74" column="42" selection-start-line="74" selection-start-column="42" selection-end-line="74" selection-end-column="42" />
               <folding>
                 <element signature="e#52#70#0" expanded="true" />
@@ -131,9 +128,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="754" />
-    <option name="y" value="11" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="40" />
+    <option name="y" value="4" />
     <option name="width" value="1128" />
     <option name="height" value="1149" />
   </component>
@@ -142,7 +139,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -154,6 +150,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -185,19 +182,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="754" y="11" width="1128" height="1149" extended-state="0" />
+    <frame x="40" y="4" width="1128" height="1149" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24010791" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24010791" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="7" side_tool="true" visible="true" weight="0.11025145" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -213,6 +210,60 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/feature_extract.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1596">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
+          <folding>
+            <element signature="e#58#72#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pitch_extract.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4123">
+          <caret line="217" selection-start-line="217" selection-end-line="217" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utilities.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1216">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+          <folding>
+            <element signature="e#50#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user_input.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/peak_break.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1387">
+          <caret line="74" column="42" selection-start-line="74" selection-start-column="42" selection-end-line="74" selection-end-column="42" />
+          <folding>
+            <element signature="e#52#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pitch_on_off.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding>
+            <element signature="e#54#72#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feature_extract.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
           <folding>
@@ -225,9 +276,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#50#72#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -248,46 +296,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wav2wav_v4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1437">
-          <caret line="297" column="31" lean-forward="true" selection-start-line="297" selection-start-column="31" selection-end-line="297" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/wav2wav_v4.py" />
     <entry file="file://$PROJECT_DIR$/wav2wav.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="20" column="52" lean-forward="true" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
-          <folding>
-            <element signature="e#50#72#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="22" column="58" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="58" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pitch_extract.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
+        <state relative-caret-position="4085">
           <caret line="217" selection-start-line="217" selection-end-line="217" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/peak_break.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1998">
+        <state relative-caret-position="1387">
           <caret line="74" column="42" selection-start-line="74" selection-start-column="42" selection-end-line="74" selection-end-column="42" />
           <folding>
             <element signature="e#52#70#0" expanded="true" />
@@ -295,19 +321,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pitch_on_off.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1372">
-          <caret line="58" column="44" selection-start-line="58" selection-start-column="44" selection-end-line="58" selection-end-column="44" />
-          <folding>
-            <element signature="e#54#72#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/feature_extract.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="641">
+        <state relative-caret-position="1596">
           <caret line="87" selection-start-line="87" selection-end-line="87" />
           <folding>
             <element signature="e#58#72#0" expanded="true" />
@@ -315,9 +331,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/user_input.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/utilities.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
+        <state relative-caret-position="1216">
           <caret line="67" selection-start-line="67" selection-end-line="67" />
           <folding>
             <element signature="e#50#68#0" expanded="true" />
@@ -325,10 +348,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user_input.py">
+    <entry file="file://$PROJECT_DIR$/pitch_on_off.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        <state relative-caret-position="19">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding>
+            <element signature="e#54#72#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="16" column="70" selection-start-line="16" selection-start-column="70" selection-end-line="16" selection-end-column="70" />
         </state>
       </provider>
     </entry>

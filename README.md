@@ -3,6 +3,7 @@
 
 # Usage
 first drag your .wav file into folder /wav
+your .wav file must be your voice record, or some source file with voice only
 
 - for left channel melody float frequency and right channel vocal
 ```bash
