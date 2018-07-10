@@ -162,7 +162,7 @@ def pitch_extract(pks_locs,pitch_on_arr,pitch_off_arr,
                 pitch_curr = pitch_curr_mode[0][0]
                 # compare the reference pitch with the current pitch
                 # I set the threshold to be 8.5
-                if (pitch_curr > pitch_ref + 8.5) and (pitch_ref != 0):
+                if (pitch_curr > pitch_ref + outlier) and (pitch_ref != 0):
                     pitch = pitch_ref
                 else:
                     pitch = pitch_curr
@@ -177,7 +177,7 @@ def pitch_extract(pks_locs,pitch_on_arr,pitch_off_arr,
             curr_frame = final_freq1[start:end]
             pitch_curr_mode = stats.mode(curr_frame)
             pitch_curr = pitch_curr_mode[0][0]
-            if (pitch_curr > pitch_ref + 8.5) and (pitch_ref != 0):
+            if (pitch_curr > pitch_ref + outlier) and (pitch_ref != 0):
                 pitch = pitch_ref
             else:
                 pitch = pitch_curr
@@ -221,16 +221,18 @@ def pitch_extract(pks_locs,pitch_on_arr,pitch_off_arr,
         note = notes[i]
         testArray = final_freq[note[0]:note[1]]
         array_fft = np.abs(np.fft.fft(testArray))[1:]
-        if np.mean(array_fft) > detect_osc:
-            sortedArray = np.sort(testArray)
-            mean_firsthalf = np.mean(sortedArray[0:len(sortedArray) // 2])
-            mean_lasthalf = np.mean(sortedArray[len(sortedArray) // 2:])
-            mean_fivelast = np.mean(sortedArray[-8:-3])
-            if mean_lasthalf - mean_firsthalf > jump:
-                note_temp = list(note)
-                note_temp[2] = mean_fivelast
-                notes[i] = tuple(note_temp)
-                modified = modified + 1
+        sortedArray = np.sort(testArray)
+        mean_firsthalf = np.mean(sortedArray[0:len(sortedArray)//2])
+        mean_lasthalf = np.mean(sortedArray[len(sortedArray)//2 : ])
+        array_length = len(sortedArray)
+        subIndex1 = np.int16(array_length * 0.7)
+        subIndex2 = np.int16(array_length * 0.85)
+        mean_fivelast = np.mean(sortedArray[subIndex1:subIndex2])
+        if mean_lasthalf - mean_firsthalf > jump or np.mean(array_fft) > detect_osc:
+            note_temp = list(note)
+            note_temp[2] = mean_fivelast
+            notes[i] = tuple(note_temp)
+            modified = modified + 1
 
     print('modified ' + repr(modified) + ' notes')
 
