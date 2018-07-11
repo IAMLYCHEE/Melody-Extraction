@@ -14,8 +14,8 @@
       <file leaf-file-name="app.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="209">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -78,7 +78,7 @@
         <entry file="file://$PROJECT_DIR$/peak_break.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="246">
-              <caret line="44" column="57" lean-forward="true" selection-start-line="44" selection-start-column="57" selection-end-line="44" selection-end-column="57" />
+              <caret line="90" column="57" lean-forward="true" selection-start-line="90" selection-start-column="57" selection-end-line="90" selection-end-column="57" />
               <folding>
                 <element signature="e#52#70#0" expanded="true" />
               </folding>
@@ -120,8 +120,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="744" />
-    <option name="y" value="27" />
+    <option name="x" value="395" />
+    <option name="y" value="16" />
     <option name="width" value="1128" />
     <option name="height" value="1149" />
   </component>
@@ -173,8 +173,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="744" y="27" width="1128" height="1149" extended-state="0" />
-    <editor active="true" />
+    <frame x="395" y="16" width="1128" height="1149" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24010791" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -395,15 +394,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="209">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/peak_break.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
-          <caret line="44" column="57" lean-forward="true" selection-start-line="44" selection-start-column="57" selection-end-line="44" selection-end-column="57" />
+          <caret line="90" column="57" lean-forward="true" selection-start-line="90" selection-start-column="57" selection-end-line="90" selection-end-column="57" />
           <folding>
             <element signature="e#52#70#0" expanded="true" />
           </folding>

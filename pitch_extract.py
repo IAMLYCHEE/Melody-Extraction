@@ -133,7 +133,7 @@ def pitch_extract(pks_locs,pitch_on_arr,pitch_off_arr,
             pitch_pre = note_pre[2]
             pitch_post = note_post[2]
             if pitch > (pitch_pre + pitch_post) / 2 + outlier:
-                pitch = np.int8(np.round((pitch_pre + pitch_post) / 2))
+                pitch = (pitch_pre + pitch_post) / 2
                 note_temp = list(note)
                 note_temp[2] = pitch
                 notes[i] = tuple(note_temp)
@@ -205,7 +205,7 @@ def pitch_extract(pks_locs,pitch_on_arr,pitch_off_arr,
             pitch_pre = note_pre[2]
             pitch_post = note_post[2]
             if pitch > (pitch_pre + pitch_post) / 2 + outlier:
-                pitch = np.int8(np.round((pitch_pre + pitch_post) / 2))
+                pitch = (pitch_pre + pitch_post) / 2
                 note_temp = list(note)
                 note_temp[2] = pitch
                 notes[i] = tuple(note_temp)
