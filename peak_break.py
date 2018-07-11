@@ -3,6 +3,52 @@
 import numpy as np
 from scipy import stats
 
+def detect_audio_break(audio,sr=48000,frame_size = 48000, hop_size = 8000 ,threshold = 2):
+    # the variable we need to return
+    break_points = []
+    frameSize = frame_size 
+    hop = hop_size
+    #if the audio is large than 1 minute we cut it 
+    if len(audio) > 60 * sr : 
+        #calculate the amount of frames 
+        sample_amount = (len(audio) - frameSize )//hop + 1
+        # now create a space to store the seqs
+        seqs = np.zeros((sample_amount, frameSize))
+        # Now we put the blocks into the seqs
+        for i in np.arange(0, len(audio) - frameSize, hop):
+            seqs[i // hop, :] = audio[i:i + frameSize]
+        #calculate the energy
+        E = np.multiply(seqs, seqs)
+        E = np.sum(E, axis=1)    
+        # find the small energy
+        indexs = np.where(E< threshold)[0]
+        # add 0 at the end, for the convenience of the following operation
+        indexs = np.append(indexs,[0])
+        i = 0
+        # a set of store set of positions
+        pos_sets = []
+        # a set of positions
+        pos_set = []
+        while i < len(indexs)-1:
+            # if continuous add to a set
+            if(indexs[i] == indexs[i+1] - 1):
+                pos_set.append(indexs[i])
+            else:
+            # if not continuous, add current to set and create a new set
+                pos_set.append(indexs[i])
+                pos_sets.append(pos_set)
+                pos_set = []
+            i = i+1
+
+        for pos_set in pos_sets:
+            if len(pos_set) >= 6:
+                break_candi = pos_set[len(pos_set)//2]
+                if break_candi > sample_amount* 0.3 and break_candi < sample_amount * 0.70:
+                    break_points.append(break_candi)
+                
+    return break_points,hop
+    
+
 
 def detect_peaks(x, mph=None, mpd=1, threshold=0, edge='rising',
                  kpsh=False, valley=False):
