@@ -2,7 +2,7 @@
 
 
 # Usage
-first drag your .wav file into folder /wav
+first drag your .wav files into folder ./wav
 your .wav file must be your voice record, or some source file with voice only
 
 - for left channel melody float frequency and right channel vocal
@@ -20,6 +20,10 @@ your .wav file must be your voice record, or some source file with voice only
 >python app.py infile.wav 
 ```
 
+if you want to transform all files in ./wav 
+```bash
+>./run.sh
+```
 
 # Dependencies:
 - Anaconda: Alternative , but recommended
