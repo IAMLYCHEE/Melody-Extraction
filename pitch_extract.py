@@ -148,7 +148,7 @@ def pitch_extract(pks_locs,pitch_on_arr,pitch_off_arr,
     w_length = 35
     for i in range(len(pitch_on_arr)):
         block_length = pitch_off_arr[i] - pitch_on_arr[i]
-        w_amount = np.int16(block_length) // np.int16(w_length)
+        w_amount = np.int32(block_length) // np.int32(w_length)
         if w_amount > 0:
             for j in range(w_amount - 1):
                 start = pitch_on_arr[i] + j * w_length
@@ -225,8 +225,8 @@ def pitch_extract(pks_locs,pitch_on_arr,pitch_off_arr,
         mean_firsthalf = np.mean(sortedArray[0:len(sortedArray)//2])
         mean_lasthalf = np.mean(sortedArray[len(sortedArray)//2 : ])
         array_length = len(sortedArray)
-        subIndex1 = np.int16(array_length * 0.7)
-        subIndex2 = np.int16(array_length * 0.85)
+        subIndex1 = np.int32(array_length * 0.7)
+        subIndex2 = np.int32(array_length * 0.85)
         mean_fivelast = np.mean(sortedArray[subIndex1:subIndex2])
         if mean_lasthalf - mean_firsthalf > jump or np.mean(array_fft) > detect_osc:
             note_temp = list(note)

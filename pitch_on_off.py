@@ -64,10 +64,10 @@ def gen_pitch_on_off(dataset,energy, small_dur=15, large_dur = 215,window_size =
     pitch_on_arr = np.delete(pitch_on_arr, small_dur_idx)
     pitch_off_arr = np.delete(pitch_off_arr, small_dur_idx)
 
-    pitch_on_arr = np.int16(pitch_on_arr)
-    pitch_off_arr = np.int16(pitch_off_arr)
+    pitch_on_arr = np.int32(pitch_on_arr)
+    pitch_off_arr = np.int32(pitch_off_arr)
 
-    pitch_on_arr = np.int16(pitch_on_arr)
-    pitch_off_arr = np.int16(pitch_off_arr)
+    pitch_on_arr = np.int32(pitch_on_arr)
+    pitch_off_arr = np.int32(pitch_off_arr)
 
     return pitch_on_arr,pitch_off_arr

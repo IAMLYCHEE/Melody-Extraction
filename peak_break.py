@@ -63,7 +63,7 @@ def find_break(energy_wave, window_size=80, hop_size=10, height=2.5):
     wave_dealt = wave_dealt[window_size // 2: -window_size // 2]
     wave_dealt = stats.zscore(wave_dealt)
     sample_amount = np.floor((len(wave_dealt) - window_size) / hop_size)
-    sample_amount = np.int16(sample_amount)
+    sample_amount = np.int32(sample_amount)
     sum_diff = np.zeros(sample_amount)
     for i in range(sample_amount):
         pos = i * hop_size
