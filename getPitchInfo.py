@@ -15,7 +15,7 @@ class PitchInfo:
 	def __init__(self,audio_file):
 		self.audio,self.sr = librosa.load(audio_file,sr = 48000,mono = True)
 
-	def getPitchInfo():
+	def getNotesInfo():
 		break_points,hop = peak_break.detect_audio_break(audio,sr=48000,frame_size = 48000, hop_size = 8000 ,threshold = 2)
 		# print(break_points)
 		audio_pieces = []
@@ -65,3 +65,7 @@ class PitchInfo:
 		    i+=1
 
 		return audio_notes
+
+	def getFreqInfo():
+		notes = self.getNotesInfo()
+		print(len(notes))
