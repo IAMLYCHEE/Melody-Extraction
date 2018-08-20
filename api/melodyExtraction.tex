@@ -154,7 +154,7 @@ some important functions you may need.
 \subsection{PitchInfo}
 \subsubsection{audio\_notes, audio = PitchInfo.getNotesInfo()}
 \textbf{audio\_notes}: a list of notes. each notes is in the form of start frame, end frame, estimated pitch.\\
-\textbf{audio}: the waveform data of the audio. \\
+\textbf{audio}: a numpy array showing the waveform data of the audio. \\
 
 \noindent $\bullet$ \textbf{Example}
 \begin{python}
@@ -180,6 +180,9 @@ for note in notes:
 #=============================#
 \end{python}
 
+\subsubsection{audio\_freq, audio = PitchInfo.getFreqInfo()}
+\textbf{audio\_freq}: a numpy array aligned with the audio wave form data.\\
+\textbf{audio}: a numpy array showing the waveform data of the audio \\
 
 
 

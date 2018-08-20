@@ -68,10 +68,11 @@ class PitchInfo:
 
 		return audio_notes,self.audio
 
-	def getFreqInfo(self,hop_length = 128):
-		notes = self.getNotesInfo()
+	def getFreqInfo(self):
+		hop_length = 128
+		notes,audio = self.getNotesInfo()
 		audio_freq = np.zeros(notes[-1][1] * hop_length)
 		for i in range(len(notes)):
 			duration = notes[i][1] * hop_length - notes[i][0] * hop_length
 			audio_freq[notes[i][0] * hop_length : notes[i][1] * hop_length] = np.ones(duration) * utilities.pitch2freq(notes[i][2])
-		return audio_freq,self.audio
+		return audio_freq,audio
