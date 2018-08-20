@@ -9,14 +9,16 @@ import librosa
 import pitch_extract
 import utilities
 import peak_break
-
+import numpy as np
 
 class PitchInfo:
 	def __init__(self,audio_file):
 		self.audio,self.sr = librosa.load(audio_file,sr = 48000,mono = True)
 
-	def getNotesInfo():
-		break_points,hop = peak_break.detect_audio_break(audio,sr=48000,frame_size = 48000, hop_size = 8000 ,threshold = 2)
+	def getNotesInfo(self):
+		audio = self.audio
+		sr = self.sr
+		break_points,hop = peak_break.detect_audio_break(audio,sr,frame_size = 48000, hop_size = 8000 ,threshold = 2)
 		# print(break_points)
 		audio_pieces = []
 		if len(break_points) > 0:
@@ -36,12 +38,12 @@ class PitchInfo:
 		hop = 8000
 		hop_length = 128
 		for audio_piece in audio_pieces:
-		    audio = audio_piece
-		    s_crop = feature_extract.freq_feature(audio, sr, freq_min=56, freq_max=1760,
+		    audio_p = audio_piece
+		    s_crop = feature_extract.freq_feature(audio_p, sr, freq_min=56, freq_max=1760,
 		                                      win_length=1024, hop_length=128,
 		                                      window_shape='hann', n_fft=8192)
 		    sample_amount = s_crop.shape[1]
-		    seqs = feature_extract.sep_audio(audio, sample_amount,hop_length=128,win_length=1024)
+		    seqs = feature_extract.sep_audio(audio_p, sample_amount,hop_length=128,win_length=1024)
 		    energy = feature_extract.compute_energy(seqs)
 		    zeros_cros = feature_extract.compute_zerocross(seqs)
 		    auto_corr = feature_extract.compute_autocorr(seqs)
@@ -64,8 +66,12 @@ class PitchInfo:
 		            audio_notes.append(note)         
 		    i+=1
 
-		return audio_notes
+		return audio_notes,self.audio
 
-	def getFreqInfo():
+	def getFreqInfo(self,hop_length = 128):
 		notes = self.getNotesInfo()
-		print(len(notes))
+		audio_freq = np.zeros(notes[-1][1] * hop_length)
+		for i in range(len(notes)):
+			duration = notes[i][1] * hop_length - notes[i][0] * hop_length
+			audio_freq[notes[i][0] * hop_length : notes[i][1] * hop_length] = np.ones(duration) * utilities.pitch2freq(notes[i][2])
+		return audio_freq,self.audio

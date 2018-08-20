@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.28)  20 AUG 2018 11:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.28)  20 AUG 2018 13:58
 entering extended mode
 **C:/Users/t-yicli/Documents/GitHub/Melody-Extraction/api/melodyExtraction.tex
 (C:/Users/t-yicli/Documents/GitHub/Melody-Extraction/api/melodyExtraction.tex
@@ -597,31 +597,37 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+LaTeX Font Info:    Try loading font information for T1+txtt on input line 54.
+
+("C:\Users\t-yicli\AppData\Local\Programs\MiKTeX 2.9\tex\latex\txfonts\t1txtt.f
+d"
+File: t1txtt.fd 2000/12/15 v3.1
 ) (melodyExtraction.aux)
 \openout1 = `melodyExtraction.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Try loading font information for T1+pplx on input line 100.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Try loading font information for T1+pplx on input line 109.
 
 
 ("C:\Users\t-yicli\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\t1pplx.fd
 "
 File: t1pplx.fd 2004/09/06 font definitions for T1/pplx.
 )
-LaTeX Info: Redefining \microtypecontext on input line 100.
+LaTeX Info: Redefining \microtypecontext on input line 109.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -678,7 +684,7 @@ Package caption Info: listings package is loaded.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box62
-Package hyperref Info: Link coloring OFF on input line 100.
+Package hyperref Info: Link coloring OFF on input line 109.
 
 ("C:\Users\t-yicli\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\nameref
 .sty"
@@ -690,9 +696,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count149
 )
-LaTeX Info: Redefining \ref on input line 100.
-LaTeX Info: Redefining \pageref on input line 100.
-LaTeX Info: Redefining \nameref on input line 100.
+LaTeX Info: Redefining \ref on input line 109.
+LaTeX Info: Redefining \pageref on input line 109.
+LaTeX Info: Redefining \nameref on input line 109.
  (melodyExtraction.out) (melodyExtraction.out)
 \@outlinefile=\write3
 \openout3 = `melodyExtraction.out'.
@@ -732,35 +738,35 @@ G,.JBIG2,.JB2,.eps]
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/pplx/m/sc/12'.
 (microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Try loading font information for OT1+pplx on input line 102
+LaTeX Font Info:    Try loading font information for OT1+pplx on input line 111
 .
 
 ("C:\Users\t-yicli\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\ot1pplx.f
 d"
 File: ot1pplx.fd 2004/09/06 font definitions for OT1/pplx.
 )
-LaTeX Font Info:    Try loading font information for OML+zplm on input line 102
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 111
 .
 
 ("C:\Users\t-yicli\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\omlzplm.f
 d"
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMS+zplm on input line 102
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 111
 .
 
 ("C:\Users\t-yicli\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\omszplm.f
 d"
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMX+zplm on input line 102
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 111
 .
 
 ("C:\Users\t-yicli\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\omxzplm.f
 d"
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 102
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 111
 .
 
 ("C:\Users\t-yicli\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\ot1zplm.f
@@ -772,90 +778,102 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 102.
+(Font)              scaled to size 10.42007pt on input line 111.
 
 ("C:\Users\t-yicli\AppData\Local\Programs\MiKTeX 2.9\tex\latex\microtype\mt-msa
 .cfg"
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 102.
+(Font)              scaled to size 7.91925pt on input line 111.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 102.
+(Font)              scaled to size 6.25204pt on input line 111.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 102.
+(Font)              scaled to size 10.42007pt on input line 111.
 
 ("C:\Users\t-yicli\AppData\Local\Programs\MiKTeX 2.9\tex\latex\microtype\mt-msb
 .cfg"
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 102.
+(Font)              scaled to size 7.91925pt on input line 111.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 102.
+(Font)              scaled to size 6.25204pt on input line 111.
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--109
+Underfull \hbox (badness 10000) in paragraph at lines 111--118
 
  []
 
 LaTeX Font Info:    Font shape `T1/pplx/bx/it' in size <10> not available
-(Font)              Font shape `T1/pplx/b/it' tried instead on input line 116.
+(Font)              Font shape `T1/pplx/b/it' tried instead on input line 125.
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--118
+Underfull \hbox (badness 10000) in paragraph at lines 122--127
 
  []
 
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <10> not available
-(Font)              Font shape `T1/pplx/b/n' tried instead on input line 120.
-<default.PNG, id=23, 587.94656pt x 114.4275pt>
+(Font)              Font shape `T1/pplx/b/n' tried instead on input line 129.
+<default.PNG, id=35, 587.94656pt x 114.4275pt>
 File: default.PNG Graphic file (type png)
 <use default.PNG>
-Package pdftex.def Info: default.PNG  used on input line 124.
+Package pdftex.def Info: default.PNG  used on input line 133.
 (pdftex.def)             Requested size: 344.005pt x 66.95116pt.
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <9> not available
-(Font)              Font shape `T1/pplx/b/n' tried instead on input line 125.
-<wav2wav.PNG, id=25, 640.64343pt x 120.45pt>
+(Font)              Font shape `T1/pplx/b/n' tried instead on input line 134.
+<wav2wav.PNG, id=37, 640.64343pt x 120.45pt>
 File: wav2wav.PNG Graphic file (type png)
 <use wav2wav.PNG>
-Package pdftex.def Info: wav2wav.PNG  used on input line 131.
+Package pdftex.def Info: wav2wav.PNG  used on input line 140.
 (pdftex.def)             Requested size: 344.005pt x 64.67812pt.
-<wav2midi.PNG, id=26, 640.64343pt x 109.1578pt>
+<wav2midi.PNG, id=38, 640.64343pt x 109.1578pt>
 File: wav2midi.PNG Graphic file (type png)
 <use wav2midi.PNG>
-Package pdftex.def Info: wav2midi.PNG  used on input line 138.
+Package pdftex.def Info: wav2midi.PNG  used on input line 147.
 (pdftex.def)             Requested size: 344.005pt x 58.61453pt.
 [1{C:/Users/t-yicli/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
  <./default.PNG> <./wav2wav.PNG>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 146.
+Underfull \hbox (badness 10000) in paragraph at lines 156--158
+
+ []
+
+
+("C:\Users\t-yicli\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstlang
+1.sty"
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 187.
  [2 <./wav2midi.PNG>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 146.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 187.
  (melodyExtraction.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 146.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 146.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 187.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 187.
 Package rerunfilecheck Info: File `melodyExtraction.out' has not changed.
-(rerunfilecheck)             Checksum: 19007E3A405AC6FA64F70FD1780EE344;217.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 146.
+(rerunfilecheck)             Checksum: 2EAAF96814FBF91E318501F7D44237BC;436.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 187.
  ) 
 Here is how much of TeX's memory you used:
- 12473 strings out of 493305
- 193106 string characters out of 3128932
- 317712 words of memory out of 3000000
- 15751 multiletter control sequences out of 15000+200000
- 36720 words of font info for 96 fonts, out of 3000000 for 9000
+ 12760 strings out of 493305
+ 196804 string characters out of 3128932
+ 345719 words of memory out of 3000000
+ 16004 multiletter control sequences out of 15000+200000
+ 37377 words of font info for 98 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,11n,43p,326b,403s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,11n,43p,326b,1198s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/t-yicli/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.e
 nc}<C:/Users/t-yicli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
 nts/cm/cmsy10.pfb><C:/Users/t-yicli/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
 e1/public/fpl/fplrc8a.pfb><C:/Users/t-yicli/AppData/Local/Programs/MiKTeX 2.9/f
-onts/type1/urw/palatino/uplb8a.pfb><C:/Users/t-yicli/AppData/Local/Programs/MiK
-TeX 2.9/fonts/type1/urw/palatino/uplbi8a.pfb><C:/Users/t-yicli/AppData/Local/Pr
-ograms/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/t-yicli/AppData
-/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on melodyExtraction.pdf (2 pages, 91957 bytes).
+onts/type1/public/txfonts/t1xbtt.pfb><C:/Users/t-yicli/AppData/Local/Programs/M
+iKTeX 2.9/fonts/type1/public/txfonts/t1xtt.pfb><C:/Users/t-yicli/AppData/Local/
+Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/t-yicli/AppDa
+ta/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplbi8a.pfb><C:/Users/t-y
+icli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/
+Users/t-yicli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8
+a.pfb>
+Output written on melodyExtraction.pdf (2 pages, 110355 bytes).
 PDF statistics:
- 73 PDF objects out of 1000 (max. 8388607)
- 10 named destinations out of 1000 (max. 500000)
- 38960 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 118 PDF objects out of 1000 (max. 8388607)
+ 34 named destinations out of 1000 (max. 500000)
+ 38984 words of extra memory for PDF output out of 42996 (max. 10000000)
 

@@ -50,6 +50,15 @@
   \textup{\uppercase\expandafter{\romannumeral#1}}%
 }
 
+% Default fixed font does not support bold face
+\DeclareFixedFont{\ttb}{T1}{txtt}{bx}{n}{9} % for bold
+\DeclareFixedFont{\ttm}{T1}{txtt}{m}{n}{9}  % for normal
+
+% Custom colors
+\usepackage{color}
+\definecolor{deepblue}{rgb}{0,0,0.5}
+\definecolor{deepred}{rgb}{0.6,0,0}
+\definecolor{deepgreen}{rgb}{0,0.5,0}
 
 \newcommand\pythonstyle{\lstset{
 language=Python,
@@ -138,6 +147,39 @@ wav2midi mode:
    \includegraphics[width = 0.8\textwidth]{wav2midi.PNG}  
    \caption{wav2midi mode}
 \end{figure}
+
+\section{Developer mode}
+some important functions you may need. 
+
+\subsection{PitchInfo}
+\subsubsection{audio\_notes, audio = PitchInfo.getNotesInfo()}
+\textbf{audio\_notes}: a list of notes. each notes is in the form of start frame, end frame, estimated pitch.\\
+\textbf{audio}: the waveform data of the audio. \\
+
+\noindent $\bullet$ \textbf{Example}
+\begin{python}
+from getPitchInfo import PitchInfo
+pitch_info = PitchInfo('./wav/meiruoliming.wav')
+notes,_ = pitch_info.getNotesInfo()
+for note in notes:
+	print(note)
+#===========result============#
+(47, 117, 57.82826990552989)
+(117, 152, 57.650180126963406)
+(152, 187, 59.89729843803559)
+(187, 228, 59.89729843803559)
+(256, 291, 60.66030413979112)
+(291, 326, 61.391096674104446)
+(326, 396, 62.76617800585667)
+(396, 536, 62.09228621547197)
+(536, 594, 62.281299902377036)
+(686, 771, 59.89729843803559)
+(834, 1044, 54.69532293693169)
+(1044, 1079, 56.92606818447992)
+........
+#=============================#
+\end{python}
+
 
 
 
