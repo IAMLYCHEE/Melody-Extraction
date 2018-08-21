@@ -109,6 +109,7 @@ showstringspaces=false            %
 \begin{document}
 \section{Dependencies}
 $\bullet$ Anaconda: Alternative , but recommended \\
+$\bullet$ Python $\geq 3.6.4, the lower version is not checked, but should work\\
 $\bullet$ \href{https://github.com/librosa/librosa}{Librosa$\geq 0.6.1$}: \colorbox{gray!40}{pip install librosa}\\
 $\bullet$ \href{http://www.scipy.org/}{NumPy $\geq 1.14.3$ \& SciPy$\geq 1.1.0$} \\
 $\bullet$ \href{https://github.com/jiaaro/pydub}{pydub($\geq 0.22.0$)} \colorbox{gray!40}{pip install pydub}. \\
@@ -148,8 +149,8 @@ wav2midi mode:
    \caption{wav2midi mode}
 \end{figure}
 
-\section{Developer mode}
-some important functions you may need. 
+\section{For Developer}
+some important functions you may need for further use.
 
 \subsection{PitchInfo}
 \subsubsection{audio\_notes, audio = PitchInfo.getNotesInfo()}
@@ -184,6 +185,21 @@ for note in notes:
 \textbf{audio\_freq}: a numpy array aligned with the audio wave form data.\\
 \textbf{audio}: a numpy array showing the waveform data of the audio \\
 
+\noindent $\bullet$ \textbf{Example}
+\begin{python}
+freq,audio = pitch_info.getFreqInfo()
+#illustrate part of the audio and the corresponding frequency
+plt.plot(audio[:audio.shape[0]//4] * 400,label = 'audio wave')
+plt.plot(freq[:freq.shape[0]//4],label = 'frequency')
+plt.legend()
+plt.show()
+\end{python}
+
+\begin{figure}[H]
+   \centering
+   \includegraphics[width = 0.6\textwidth]{freq.png}  
+   \caption{Frequency And Audio Wave}
+\end{figure}
 
 
 
